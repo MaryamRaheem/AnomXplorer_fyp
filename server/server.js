@@ -11,9 +11,10 @@ const mongoose = require('mongoose');
 
 const PORT = 5000;
 
-mongoose.connect('mongodb://localhost:27017/my_database', {
+mongoose.connect('mongodb://mongo:xPZGwGwpmqwYFzTGlYGucfvWKJTSptMn@monorail.proxy.rlwy.net:55176', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  dbName: 'my_database'
 });
 
 const db = mongoose.connection;
