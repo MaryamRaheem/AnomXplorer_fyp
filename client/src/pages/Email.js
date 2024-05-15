@@ -23,7 +23,7 @@ const Email = () => {
     };
 
     // Send POST request to the server's API endpoint
-    fetch('http://localhost:5000/api/Email', {
+    fetch('https://anomxplorerfyp-production.up.railway.app/api/Email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
