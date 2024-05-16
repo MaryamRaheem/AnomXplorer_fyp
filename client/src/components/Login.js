@@ -30,7 +30,7 @@ function Login() {
         const data = await response.json();
         console.log("User logged in successfully");
         // Redirect to Home.js page
-        window.location.href = "http://localhost:3000/Home"; // Update the URL as needed
+        window.location.href = "https://anom-xplorer-fyp.vercel.app/Home"; // Update the URL as needed
       } else {
         const data = await response.json();
         alert(data.error);

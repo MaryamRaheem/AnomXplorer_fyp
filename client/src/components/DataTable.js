@@ -430,7 +430,7 @@ const DataTable = ({ columns, data }) => {
   // Email Dialog
   const handleSendEmail = () => {
     // Implement email sending functionality here
-    window.location.href = 'http://localhost:3000/Email';
+    window.location.href = 'https://anom-xplorer-fyp.vercel.app/Email';
   };
 
   return (
